@@ -1,0 +1,25 @@
+# AWS Imagineers 2025 – Capstone Project
+
+## 📌 Project Overview
+This repository contains the implementation of the AWS Imagineers 2025 Capstone project. The goal is to build a production-quality AWS Data Engineering pipeline using PySpark, AWS Glue, Lambda, and QuickSight.
+
+**Key Features:**
+- Multi-layered architecture: Raw → Processed → Curated
+- PySpark ETL with explicit StructType schemas
+- Lambda Layers for dependencies
+- Governance with Lake Formation
+- QuickSight dashboards with KPIs
+
+---
+
+## 🏗 Architecture
+!Architecture Diagram
+
+**Layers:**
+- **Raw Zone**: Ingested batch & streaming data
+- **Processed Zone**: Cleaned & normalized data
+- **Curated Zone**: Business-ready reconciled datasets
+
+---
+
+## 📂 Repository Structure
